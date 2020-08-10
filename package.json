@@ -6,6 +6,7 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
+    "setup" : "strapi config:restore -f nuxpresso.json",
     "build": "strapi build",
     "strapi": "strapi"
   },
